@@ -404,7 +404,7 @@ body {
     .header {
         display: flex;
         justify-content: space-around;
-        width: 100vw;
+        width: 90vw;
         flex-direction: row;
     }
 
@@ -414,13 +414,13 @@ body {
         margin-left: 20px;
     }
     .intro-greeting{
-        font-size: 24px;
+        font-size: 20px;
     }
     .intro-name{
-        font-size: 40px;
+        font-size: 33px;
     }
     .intro-role{
-        font-size: 24px;
+        font-size: 20px;
     }
 
     .profile-pic {
@@ -432,12 +432,19 @@ body {
         padding: 20px;
     }
     .about{
-        width: auto;
+        width: 70vw;
     }
-
+    .skill-child img{
+        width: 45px;
+        height: 45px;
+    }
+    .skill-child p{
+       font-size: 15px;
+    }
+   
     .experience-item{
         display: flex;
-        width: auto;
+        width: 70vw;
         flex-direction: column;
     }
     .certificates-container{
@@ -446,8 +453,11 @@ body {
     }
     .certificate-item{
         display: flex;
-        width: auto;
+        width: 70vw;
         flex-direction: column;
+    }
+    .certificate-item img{
+       width: auto;
     }
 
 
